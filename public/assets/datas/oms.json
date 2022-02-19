@@ -1,0 +1,73 @@
+{
+    "woman": [
+        {
+            "name": "Calorie",
+            "kj": 7531.2,
+            "kcal": 2000
+        },
+        {
+            "name": "Lipide",
+            "value": 68
+        },
+        {
+            "name": "Graisse saturée",
+            "value": 22
+        },
+        {
+            "name": "Hydrade de carbone",
+            "value": 120
+        },
+        {
+            "name": "Sucre",
+            "value": 20
+        },
+        {
+            "name": "Fibre",
+            "value": 30
+        },
+        {
+            "name": "Protéine",
+            "value": 48
+        },
+        {
+            "name": "Sel",
+            "value": 5
+        }
+    ],
+
+    "male": [
+        {
+            "name": "Calorie",
+            "kj": 10460,
+            "kcal": 2000
+        },
+        {
+            "name": "Lipide",
+            "value": 86
+        },
+        {
+            "name": "Graisse saturée",
+            "value": 29
+        },
+        {
+            "name": "Hydrade de carbone",
+            "value": 150
+        },
+        {
+            "name": "Sucre",
+            "value": 25
+        },
+        {
+            "name": "Fibre",
+            "value": 45
+        },
+        {
+            "name": "Protéine",
+            "value": 56
+        },
+        {
+            "name": "Sel",
+            "value": 5
+        }
+    ]
+}

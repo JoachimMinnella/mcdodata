@@ -1,0 +1,14 @@
+.actif {
+    background-color: $color-primary;
+    color: #fff;
+}
+
+.btn {
+    padding: 3px 50px;
+    border-radius: 9px;
+    -webkit-appearance: button;
+    -webkit-tap-highlight-color: transparent;
+    &--annulation {
+        background-color: $color-third;
+    }
+}

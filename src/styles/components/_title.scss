@@ -1,0 +1,13 @@
+.title {
+    font-size: $font-size * $rythme * $rythme;
+    padding: 40px;
+    position: fixed;
+    &--order {
+        font-size: $font-size * $rythme;
+        font-weight: 600;
+    }
+    &--price {
+        font-size: $font-size;
+        font-weight: 600;
+    }
+}

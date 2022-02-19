@@ -1,0 +1,26 @@
+.nav {
+    background-color: $color-light;
+    &__list {
+        height: 100%;
+        @include flex($justify: space-evenly);
+        flex-direction: column;
+    }
+}
+
+.nav-el {
+    @include flex;
+    flex-direction: column;
+    width: 100%;
+    &__img {
+        height: 70px;
+        width: 70px;
+        object-fit: fill;
+    }
+    .actif {
+        background-color: $color-primary;
+        color: #fff
+    }
+    &:hover {
+        background-color: #b8bab9;
+    }
+}

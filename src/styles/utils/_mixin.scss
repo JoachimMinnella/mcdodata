@@ -1,0 +1,34 @@
+//Small device
+@mixin sd {
+    @media (min-width: #{$screen-sd}) {
+        @content;
+    }
+}
+
+//Medium device
+@mixin md {
+    @media (min-width: #{$screen-md}) {
+        @content;
+    }
+}
+
+//Large device
+@mixin ld {
+    @media (min-width: #{$screen-ld}) {
+        @content;
+    }
+}
+
+//Big device
+@mixin bd {
+    @media (min-width: #{$screen-bd}) {
+        @content;
+    }
+}
+
+//Flex
+@mixin flex($justify: center, $align: center) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+}

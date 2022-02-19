@@ -1,0 +1,4290 @@
+{
+    "nav": [
+        {
+            "name": "Menus",
+            "index": 0,
+            "illu": "assets/images/mcdo/menu/menu_medium.svg",
+            "alt": "illustration d'un menu"
+        },
+        {
+            "name": "Sandwichs",
+            "index": 1,
+            "illu": "assets/images/mcdo/burger/1bigmac.svg",
+            "alt": "illustration d'un hamburger"
+        },
+        {
+            "name": "Wraps/Salades",
+            "index": 2,
+            "illu": "assets/images/mcdo/wrap/21maredsousmcwrap.svg",
+            "alt": "illustration d'un wrap"
+        },
+        {
+            "name": "Snacks",
+            "index": 3,
+            "illu": "assets/images/mcdo/snack/25mcnuggets4.svg",
+            "alt": "illustration d'un de nuggets"
+        },
+        {
+            "name": "Boissons",
+            "index": 4,
+            "illu": "assets/images/mcdo/drink/47coca.svg",
+            "alt": "illustration d'un coca-cola"
+        },
+        {
+            "name": "Desserts",
+            "index": 5,
+            "illu": "assets/images/mcdo/dessert/30mcflurry.svg",
+            "alt": "illustration d'un mcFlurry"
+        },
+        {
+            "name": "Frites/Sauces",
+            "index": 6,
+            "illu": "assets/images/mcdo/frite/frites3.svg",
+            "alt": "illustration d'une portion de frites"
+        }
+    ],
+    "menus": [
+        {
+            "name": "Maxi menu",
+            "illu": "assets/images/mcdo/menu/menu_maxi.svg",
+            "alt": "illustration d'un menu maxi",
+            "price": {
+                "solo": 0
+            }
+        },
+
+        {
+            "name": "Medium menu",
+            "illu": "assets/images/mcdo/menu/menu_medium.svg",
+            "alt": "illustration d'un menu medium",
+            "price": {
+                "solo": 0
+            }
+        },
+
+        {
+            "name": "Happy meal",
+            "price": {
+                "solo": 4.5
+            },
+            "illu": "assets/images/mcdo/menu/67happymeals.svg",
+            "alt": "illustration d'un happymeals"
+        }
+    ],
+
+    "sandwichs": [
+        {
+            "name": "Big Mac",
+            "menu": true,
+            "happy": false,
+            "price": {
+                "solo": 4.10,
+                "mediumMenu": 6.7,
+                "largeMenu": 7.3
+            },
+            "illu": "assets/images/mcdo/burger/1bigmac.svg",
+            "alt": "illustration d'un bigmac",
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 2106,
+                    "kcal": 503
+                },
+                {
+                    "name": "Lipide",
+                    "value": 25
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 9.7
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 42
+                },
+                {
+                    "name": "Sucre",
+                    "value": 8.5
+                },
+                {
+                    "name": "Fibre",
+                    "value": 3.1
+                },
+                {
+                    "name": "Protéine",
+                    "value": 26
+                },
+                {
+                    "name": "Sel",
+                    "value": 2.2
+                }
+            ]
+        },
+
+        {
+            "name": "McFeast",
+            "menu": true,
+            "happy": false,
+            "price": {
+                "solo": 5.3,
+                "mediumMenu": 7.7,
+                "largeMenu": 8.3
+            },
+            "illu": "assets/images/mcdo/burger/2macFeast.svg",
+            "alt": "illustration d'un mcfeast",
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 2170,
+                    "kcal": 519
+                },
+                {
+                    "name": "Lipide",
+                    "value": 27
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 11
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 38
+                },
+                {
+                    "name": "Sucre",
+                    "value": 10
+                },
+                {
+                    "name": "Fibre",
+                    "value": 2.5
+                },
+                {
+                    "name": "Protéine",
+                    "value": 29
+                },
+                {
+                    "name": "Sel",
+                    "value": 2.4
+                }
+            ]
+        },
+
+        {
+            "name": "Hamburger",
+            "menu": false,
+            "happy": true,
+            "price": {
+                "solo": 1.20
+            },
+            "illu": "assets/images/mcdo/burger/3hamburger.svg",
+            "alt": "illustration d'un hamburger",
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 1029,
+                    "kcal": 254
+                },
+                {
+                    "name": "Lipide",
+                    "value": 8.8
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 3.5
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 30
+                },
+                {
+                    "name": "Sucre",
+                    "value": 6.6
+                },
+                {
+                    "name": "Fibre",
+                    "value": 2 
+                },
+                {
+                    "name": "Protéine",
+                    "value": 13
+                },
+                {
+                    "name": "Sel",
+                    "value": 1.3
+                }
+            ]
+        },
+
+        {
+            "name": "Cheeseburger",
+            "menu": false,
+            "happy": true,
+            "price": {
+                "solo": 2.10,
+                "eurodeals": 1.50
+            },
+            "illu": "assets/images/mcdo/burger/4cheeseburger.svg",
+            "alt": "illustration d'un cheeseburger",
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 1223,
+                    "kcal": 304
+                },
+                {
+                    "name": "Lipide",
+                    "value": 13
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 6.1
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 30
+                },
+                {
+                    "name": "Sucre",
+                    "value": 7.3
+                },
+                {
+                    "name": "Fibre",
+                    "value": 2 
+                },
+                {
+                    "name": "Protéine",
+                    "value": 16
+                },
+                {
+                    "name": "Sel",
+                    "value": 1.7
+                }
+            ]
+        },
+
+        {
+            "name": "Double Cheese",
+            "menu": false,
+            "happy": false,
+            "price": {
+                "solo": 3.8,
+                "eurodeals": 2.5
+            },
+            "illu": "assets/images/mcdo/burger/5doublecheese.svg",
+            "alt": "illustration d'un double cheeseburger",
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 1874,
+                    "kcal": 448
+                },
+                {
+                    "name": "Lipide",
+                    "value": 24
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 12
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 31
+                },
+                {
+                    "name": "Sucre",
+                    "value": 7.9
+                },
+                {
+                    "name": "Fibre",
+                    "value": 2 
+                },
+                {
+                    "name": "Protéine",
+                    "value": 37
+                },
+                {
+                    "name": "Sel",
+                    "value": 2.5
+                }
+            ]
+        },
+
+        {
+            "name": "Royal Crispy Bacon",
+            "menu": true,
+            "happy": false,
+            "price": {
+                "solo": 4.20,
+                "mediumMenu": 6.70,
+                "largeMenu": 7.40
+            },
+            "illu": "assets/images/mcdo/burger/8royalcrispybacon.svg",
+            "alt": "illustration d'un Royal crispy bacon",
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 2307,
+                    "kcal": 553
+                },
+                {
+                    "name": "Lipide",
+                    "value": 33
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 12
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 33
+                },
+                {
+                    "name": "Sucre",
+                    "value": 6.6
+                },
+                {
+                    "name": "Fibre",
+                    "value": 1.8 
+                },
+                {
+                    "name": "Protéine",
+                    "value": 31
+                },
+                {
+                    "name": "Sel",
+                    "value": 2.2
+                }
+            ]
+        },
+
+        {
+            "name": "Royal Cheese",
+            "menu": true,
+            "happy": false,
+            "price": {
+                "solo": 4.20,
+                "mediumMenu": 6.70,
+                "largeMenu": 7.40
+            },
+            "illu": "assets/images/mcdo/burger/9royalcheese.svg",
+            "alt": "illustration d'un royal cheese",
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 2179,
+                    "kcal": 521
+                },
+                {
+                    "name": "Lipide",
+                    "value": 27
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 14
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 37
+                },
+                {
+                    "name": "Sucre",
+                    "value": 9.5
+                },
+                {
+                    "name": "Fibre",
+                    "value": 2.2
+                },
+                {
+                    "name": "Protéine",
+                    "value": 32
+                },
+                {
+                    "name": "Sel",
+                    "value": 2.6
+                }
+            ]
+        },
+
+        {
+            "name": "Maestro Generous Jack",
+            "menu": true,
+            "happy": false,
+            "price": {
+                "solo": 5.30,
+                "mediumMenu": 7.90,
+                "largeMenu": 8.50
+            },
+            "illu": "assets/images/mcdo/burger/13generousjack.svg",
+            "alt": "illustration d'un maestro generous jack",
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 3027,
+                    "kcal": 725
+                },
+                {
+                    "name": "Lipide",
+                    "value": 42
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 20
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 44
+                },
+                {
+                    "name": "Sucre",
+                    "value": 8.8
+                },
+                {
+                    "name": "Fibre",
+                    "value": 2.7
+                },
+                {
+                    "name": "Protéine",
+                    "value": 41
+                },
+                {
+                    "name": "Sel",
+                    "value": 2.5
+                }
+            ]
+        },
+
+        {
+            "name": "Crispy Chicken",
+            "menu": true,
+            "happy": false,
+            "price": {
+                "solo": 6,
+                "mediumMenu": 8.1,
+                "largeMenu": 8.7
+            },
+            "illu": "assets/images/mcdo/burger/15crispychicken.svg",
+            "alt": "illustration d'un crispy chicken",
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 2655,
+                    "kcal": 633
+                },
+                {
+                    "name": "Lipide",
+                    "value": 29
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 10
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 65
+                },
+                {
+                    "name": "Sucre",
+                    "value": 16
+                },
+                {
+                    "name": "Fibre",
+                    "value": 3.1
+                },
+                {
+                    "name": "Protéine",
+                    "value": 28
+                },
+                {
+                    "name": "Sel",
+                    "value": 3.1
+                }
+            ]
+        },
+
+        {
+            "name": "McChicken",
+            "menu": true,
+            "happy": false,
+            "price": {
+                "solo": 4.05,
+                "mediumMenu": 6.65,
+                "largeMenu": 7.25
+            },
+            "illu": "assets/images/mcdo/burger/10mcchicken.svg",
+            "alt": "illustration d'un mc chicken",
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 1789,
+                    "kcal": 426
+                },
+                {
+                    "name": "Lipide",
+                    "value": 17
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 2.3
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 45
+                },
+                {
+                    "name": "Sucre",
+                    "value": 6.3
+                },
+                {
+                    "name": "Fibre",
+                    "value": 2.7
+                },
+                {
+                    "name": "Protéine",
+                    "value": 21
+                },
+                {
+                    "name": "Sel",
+                    "value": 1.9
+                }
+            ]
+        },
+
+        {
+            "name": "Maestro Generous Jacqueline",
+            "menu": true,
+            "happy": false,
+            "price": {
+                "solo": 5.30,
+                "mediumMenu": 7.90,
+                "largeMenu": 8.50
+            },
+            "illu": "assets/images/mcdo/burger/14generousjackeline.svg",
+            "alt": "illustration d'un maestro generous jackeline",
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 3423,
+                    "kcal": 818
+                },
+                {
+                    "name": "Lipide",
+                    "value": 42
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 11
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 74
+                },
+                {
+                    "name": "Sucre",
+                    "value": 12
+                },
+                {
+                    "name": "Fibre",
+                    "value": 4.1
+                },
+                {
+                    "name": "Protéine",
+                    "value": 35
+                },
+                {
+                    "name": "Sel",
+                    "value": 3.5
+                }
+            ]
+        },
+
+        {
+            "name": "McFish",
+            "menu": false,
+            "happy": true,
+            "price": {
+                "solo": 1.5
+            },
+            "illu": "assets/images/mcdo/burger/6macfish.svg",
+            "alt": "illustration d'un mc fish",
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 1191,
+                    "kcal": 283
+                },
+                {
+                    "name": "Lipide",
+                    "value": 7.4
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 0.9
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 39
+                },
+                {
+                    "name": "Sucre",
+                    "value": 7.9
+                },
+                {
+                    "name": "Fibre",
+                    "value": 2.3
+                },
+                {
+                    "name": "Protéine",
+                    "value": 14
+                },
+                {
+                    "name": "Sel",
+                    "value": 1.5
+                }
+            ]
+        },
+
+        {
+            "name": "Filet-O-Fish",
+            "menu": true,
+            "happy": false,
+            "price": {
+                "solo": 4.05,
+                "mediumMenu": 6.65,
+                "largeMenu": 7.25
+            },
+            "illu": "assets/images/mcdo/burger/7macofish.svg",
+            "alt": "illustration d'un filet o fish",
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 1391,
+                    "kcal": 331
+                },
+                {
+                    "name": "Lipide",
+                    "value": 13
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 2.6
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 37
+                },
+                {
+                    "name": "Sucre",
+                    "value": 4.8
+                },
+                {
+                    "name": "Fibre",
+                    "value": 2
+                },
+                {
+                    "name": "Protéine",
+                    "value": 15
+                },
+                {
+                    "name": "Sel",
+                    "value": 1.5
+                }
+            ]
+        },
+
+        {
+            "name": "Royal-O-Fish",
+            "menu": true,
+            "happy": false,
+            "price": {
+                "solo": 4.20,
+                "mediumMenu": 6.70,
+                "largeMenu": 7.40
+            },
+
+            "illu": "assets/images/mcdo/burger/7royalofish.svg",
+            "alt": "illustration d'un royal o fish",
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 1391,
+                    "kcal": 331
+                },
+                {
+                    "name": "Lipide",
+                    "value": 13
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 2.6
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 37
+                },
+                {
+                    "name": "Sucre",
+                    "value": 4.8
+                },
+                {
+                    "name": "Fibre",
+                    "value": 2
+                },
+                {
+                    "name": "Protéine",
+                    "value": 15
+                },
+                {
+                    "name": "Sel",
+                    "value": 1.5
+                }
+            ]
+        },
+
+        {
+            "name": "McVeggie",
+            "menu": true,
+            "happy": false,
+            "price": {
+                "solo": 4.1,
+                "mediumMenu": 6.6,
+                "largeMenu": 7.2
+            },
+
+            "illu": "assets/images/mcdo/burger/11mcveggie.svg",
+            "alt": "illustration d'un mcveggie",
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 1674,
+                    "kcal": 399
+                },
+                {
+                    "name": "Lipide",
+                    "value": 15
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 2.2
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 45
+                },
+                {
+                    "name": "Sucre",
+                    "value": 7.3
+                },
+                {
+                    "name": "Fibre",
+                    "value": 6.4
+                },
+                {
+                    "name": "Protéine",
+                    "value": 17
+                },
+                {
+                    "name": "Sel",
+                    "value": 2
+                }
+            ]
+        },
+
+        {
+            "name": "Veggie Deluxe",
+            "menu": true,
+            "happy": false,
+            "price": {
+                "solo": 5,
+                "mediumMenu": 7.7,
+                "largeMenu": 8.3
+            },
+
+            "illu": "assets/images/mcdo/burger/12veggiedeluxe.svg",
+            "alt": "illustration d'un veggie deluxe",
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 1692,
+                    "kcal": 403
+                },
+                {
+                    "name": "Lipide",
+                    "value": 15
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 1.9
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 46
+                },
+                {
+                    "name": "Sucre",
+                    "value": 8.3
+                },
+                {
+                    "name": "Fibre",
+                    "value": 6.5
+                },
+                {
+                    "name": "Protéine",
+                    "value": 17
+                },
+                {
+                    "name": "Sel",
+                    "value": 0.96
+                }
+            ]
+        }
+    ],
+
+    "snacks": [
+        {
+            "name": "Crispy Chicken tenders",
+            "menu": false,
+            "happy": false,
+            "nbr": 3,
+            "price": {
+                "solo": 4.25
+            },
+            "illu": "assets/images/mcdo/snack/24crispychickentenders.svg",
+            "alt": "illustration de crispy chicken tenders",
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 1552,
+                    "kcal": 370
+                },
+                {
+                    "name": "Lipide",
+                    "value": 16
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 2.1
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 33
+                },
+                {
+                    "name": "Sucre",
+                    "value": 0.9
+                },
+                {
+                    "name": "Fibre",
+                    "value": 1.5
+                },
+                {
+                    "name": "Protéine",
+                    "value": 22
+                },
+                {
+                    "name": "Sel",
+                    "value": 1.6
+                }
+            ]
+        },
+
+        {
+            "name": "Chicken McNuggets / 4pcs",
+            "illu": "assets/images/mcdo/snack/25mcnuggets4.svg",
+            "alt": "illustration de chicken mc nuggets",
+            "menu": false,
+            "happy": true,
+            "price": {
+                "solo": 2.80
+            },
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 832,
+                    "kcal": 199
+                },
+                {
+                    "name": "Lipide",
+                    "value": 9.5
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 1.2
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 15
+                },
+                {
+                    "name": "Sucre",
+                    "value": 0.9
+                },
+                {
+                    "name": "Fibre",
+                    "value": 3.4
+                },
+                {
+                    "name": "Protéine",
+                    "value": 11
+                },
+                {
+                    "name": "Sel",
+                    "value": 1
+                }
+            ]
+        },
+
+        {
+            "name": "Chicken McNuggets / 6pcs",
+            "menu": true,
+            "happy": false,
+            "illu": "assets/images/mcdo/snack/25mcnuggets6.svg",
+            "alt": "illustration de chicken mc nuggets",
+            "price": {
+                "solo": 4.15,
+                "mediumMenu": 6.75,
+                "largeMenu": 7.35
+            },
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 10148,
+                    "kcal": 298.5
+                },
+                {
+                    "name": "Lipide",
+                    "value": 14.25
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 1.8
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 22.5
+                },
+                {
+                    "name": "Sucre",
+                    "value": 1.35
+                },
+                {
+                    "name": "Fibre",
+                    "value": 5.1
+                },
+                {
+                    "name": "Protéine",
+                    "value": 16.5
+                },
+                {
+                    "name": "Sel",
+                    "value": 1.485
+                }
+            ]
+        },
+
+        {
+            "name": "Chicken McNuggets / 9pcs",
+            "menu": false,
+            "happy": false,
+            "illu": "assets/images/mcdo/snack/25mcnuggets9.svg",
+            "alt": "illustration de chicken mc nuggets",
+            "price": {
+                "solo": 4.95
+            },
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 1872,
+                    "kcal": 447.75
+                },
+                {
+                    "name": "Lipide",
+                    "value": 21.375
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 2.7
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 33.75
+                },
+                {
+                    "name": "Sucre",
+                    "value": 2.016
+                },
+                {
+                    "name": "Fibre",
+                    "value": 7.65
+                },
+                {
+                    "name": "Protéine",
+                    "value": 24.75
+                },
+                {
+                    "name": "Sel",
+                    "value": 2.2275
+                }
+            ]
+        },
+
+        {
+            "name": "Chicken McNuggets / 20pcs",
+            "menu": false,
+            "happy": false,
+            "illu": "assets/images/mcdo/snack/25mcnuggets20.svg",
+            "alt": "illustration de chicken mc nuggets",
+            "price": {
+                "solo": 8.45
+            },
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 4160,
+                    "kcal": 995
+                },
+                {
+                    "name": "Lipide",
+                    "value": 47.5
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 6
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 75
+                },
+                {
+                    "name": "Sucre",
+                    "value": 4.48
+                },
+                {
+                    "name": "Fibre",
+                    "value": 17
+                },
+                {
+                    "name": "Protéine",
+                    "value": 55
+                },
+                {
+                    "name": "Sel",
+                    "value": 4.95
+                }
+            ]
+        },
+
+        {
+            "name": "Chicken Wings / 3pcs",
+            "menu": false,
+            "happy": true,
+            "illu": "assets/images/mcdo/snack/26chickenwings3.svg",
+            "alt": "illustration de chicken wings",
+            "price": {
+                "solo": 2.95
+            },
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 1077.9,
+                    "kcal": 785.97
+                },
+                {
+                    "name": "Lipide",
+                    "value": 15.9
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 3.69
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 5.000001
+                },
+                {
+                    "name": "Sucre",
+                    "value": 1.5
+                },
+                {
+                    "name": "Fibre",
+                    "value": 1.29
+                },
+                {
+                    "name": "Protéine",
+                    "value": 24.999
+                },
+                {
+                    "name": "Sel",
+                    "value": 2.799999
+                }
+            ]
+        },
+
+        {
+            "name": "Chicken Wings / 6pcs",
+            "menu": true,
+            "happy": false,
+            "illu": "assets/images/mcdo/snack/26chickenwings6.svg",
+            "alt": "illustration de chicken wings",
+            "price": {
+                "solo": 4.15,
+                "mediumMenu": 6.75,
+                "largeMenu": 7.35
+            },
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 2155.99998,
+                    "kcal": 523.9999998
+                },
+                {
+                    "name": "Lipide",
+                    "value": 31.998
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 7.38
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 10.00002
+                },
+                {
+                    "name": "Sucre",
+                    "value": 3
+                },
+                {
+                    "name": "Fibre",
+                    "value": 2.5
+                },
+                {
+                    "name": "Protéine",
+                    "value": 49.999998
+                },
+                {
+                    "name": "Sel",
+                    "value": 5.5999998
+                }
+            ]
+        },
+
+        {
+            "name": "Chicken Wings / 9pcs",
+            "menu": false,
+            "happy": false,
+            "illu": "assets/images/mcdo/snack/26chickenwings3.svg",
+            "alt": "illustration de chicken wings",
+            "price": {
+                "solo": 7
+            },
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 3233.99997,
+                    "kcal": 785.99997
+                },
+                {
+                    "name": "Lipide",
+                    "value": 47.997
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 11.07
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 15.003
+                },
+                {
+                    "name": "Sucre",
+                    "value": 4.5
+                },
+                {
+                    "name": "Fibre",
+                    "value": 3.899997
+                },
+                {
+                    "name": "Protéine",
+                    "value": 74.99997
+                },
+                {
+                    "name": "Sel",
+                    "value": 8.3997
+                }
+            ]
+        },
+
+        {
+            "name": "Sharingbox",
+            "menu": false,
+            "happy": false,
+            "illu": "assets/images/mcdo/snack/26sharingbox.svg",
+            "alt": "illustration d'une boite sharingbox",
+            "price": {
+                "solo": 8.45
+            },
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 4027.99998,
+                    "kcal": 971.74998
+                },
+                {
+                    "name": "Lipide",
+                    "value": 53.373
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 10.08
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 43.75002
+                },
+                {
+                    "name": "Sucre",
+                    "value": 5.16
+                },
+                {
+                    "name": "Fibre",
+                    "value": 10.249999998
+                },
+                {
+                    "name": "Protéine",
+                    "value": 74.7499998
+                },
+                {
+                    "name": "Sel",
+                    "value": 7.827498
+                }
+            ]
+        },
+
+        {
+            "name": "Veggie Nuggets / 4pcs",
+            "illu": "assets/images/mcdo/snack/27veggienuggets4.svg",
+            "alt": "illustration de veggie nuggets",
+            "menu": false,
+            "happy": true,
+            "price": {
+                "solo": 2.80
+            },
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 730,
+                    "kcal": 164
+                },
+                {
+                    "name": "Lipide",
+                    "value": 7
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 0.9
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 15
+                },
+                {
+                    "name": "Sucre",
+                    "value": 0.7
+                },
+                {
+                    "name": "Fibre",
+                    "value": 3.5
+                },
+                {
+                    "name": "Protéine",
+                    "value": 11
+                },
+                {
+                    "name": "Sel",
+                    "value": 1.2
+                }
+            ]
+        },
+
+        {
+            "name": "Veggie Nuggets / 6pcs",
+            "illu": "assets/images/mcdo/snack/27veggienuggets6.svg",
+            "alt": "illustration de veggie nuggets",
+            "menu": true,
+            "happy": false,
+            "price": {
+                "solo": 4.15,
+                "mediumMenu": 6.75,
+                "largeMenu": 7.35
+            },
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 1095,
+                    "kcal": 261
+                },
+                {
+                    "name": "Lipide",
+                    "value": 10.5
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 1.35
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 22.5
+                },
+                {
+                    "name": "Sucre",
+                    "value": 1.5
+                },
+                {
+                    "name": "Fibre",
+                    "value": 5.25
+                },
+                {
+                    "name": "Protéine",
+                    "value": 16.5
+                },
+                {
+                    "name": "Sel",
+                    "value": 1.8
+                }
+            ]
+        },
+
+        {
+            "name": "Veggie Nuggets / 9pcs",
+            "menu": false,
+            "happy": false,
+            "illu": "assets/images/mcdo/snack/27veggienuggets9.svg",
+            "alt": "illustration de veggie nuggets",
+            "price": {
+                "solo": 4.95
+            },
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 1642.5,
+                    "kcal": 391.5
+                },
+                {
+                    "name": "Lipide",
+                    "value": 15.75
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 2.025
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 33.75
+                },
+                {
+                    "name": "Sucre",
+                    "value": 1.57
+                },
+                {
+                    "name": "Fibre",
+                    "value": 7.875
+                },
+                {
+                    "name": "Protéine",
+                    "value": 24.75
+                },
+                {
+                    "name": "Sel",
+                    "value": 2.7
+                }
+            ]
+        },
+
+        {
+            "name": "Cheese Snacks / 4pcs",
+            "menu": false,
+            "happy": true,
+            "illu": "assets/images/mcdo/snack/28cheesesnack4.svg",
+            "alt": "illustration de cheese snacks",
+            "price": {
+                "solo": 3.5
+            },
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 1243,
+                    "kcal": 299
+                },
+                {
+                    "name": "Lipide",
+                    "value": 20
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 7.8
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 18
+                },
+                {
+                    "name": "Sucre",
+                    "value": 0.7
+                },
+                {
+                    "name": "Fibre",
+                    "value": 2
+                },
+                {
+                    "name": "Protéine",
+                    "value": 10
+                },
+                {
+                    "name": "Sel",
+                    "value": 2.2
+                }
+            ]
+        },
+
+        {
+            "name": "Cheese Snacks / 6pcs",
+            "menu": true,
+            "happy": false,
+            "illu": "assets/images/mcdo/snack/28cheesesnack6.svg",
+            "alt": "illustration de cheese snacks",
+            "price": {
+                "solo": 5,
+                "mediumMenu": "unknown",
+                "largeMenu": "unknown"
+            },
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 1864.5,
+                    "kcal": 448.5
+                },
+                {
+                    "name": "Lipide",
+                    "value": 30
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 11.7
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 27
+                },
+                {
+                    "name": "Sucre",
+                    "value": 1.05
+                },
+                {
+                    "name": "Fibre",
+                    "value": 3
+                },
+                {
+                    "name": "Protéine",
+                    "value": 15
+                },
+                {
+                    "name": "Sel",
+                    "value": 3.3
+                }
+            ]
+        },
+
+        {
+            "name": "Cheese Snacks / 9pcs",
+            "menu": false,
+            "happy": false,
+            "illu": "assets/images/mcdo/snack/28cheesesnack9.svg",
+            "alt": "illustration de cheese snacks",
+            "price": {
+                "solo": 6
+            },
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 2796.75,
+                    "kcal": 672.75
+                },
+                {
+                    "name": "Lipide",
+                    "value": 45
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 17.55
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 40.5
+                },
+                {
+                    "name": "Sucre",
+                    "value": 1.575
+                },
+                {
+                    "name": "Fibre",
+                    "value": 4.5
+                },
+                {
+                    "name": "Protéine",
+                    "value": 22.5
+                },
+                {
+                    "name": "Sel",
+                    "value": 5.95
+                }
+            ]
+        },
+
+        {
+            "name": "Veggie Sharing",
+            "menu": false,
+            "happy": false,
+            "illu": "assets/images/mcdo/snack/27sharingboxveggie.svg",
+            "alt": "illustration d'une boite veggie sharing",
+            "price": {
+                "solo": 8.45
+            },
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 3507,
+                    "kcal": 840
+                },
+                {
+                    "name": "Lipide",
+                    "value": 45.75
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 13.725
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 60.75
+                },
+                {
+                    "name": "Sucre",
+                    "value": 2.625
+                },
+                {
+                    "name": "Fibre",
+                    "value": 10.875
+                },
+                {
+                    "name": "Protéine",
+                    "value": 39.75
+                },
+                {
+                    "name": "Sel",
+                    "value": 6
+                }
+            ]
+        }
+    ],
+
+    "wraps/salades": [
+        {
+            "name": "Crispy Chicken McWrap",
+            "menu": true,
+            "happy": false,
+            "illu": "assets/images/mcdo/wrap/20crispychickenmcwrap.svg",
+            "alt": "illustration d'un crispy chicken mcwrap",
+            "price": {
+                "solo": 4.40,
+                "mediumMenu": 7,
+                "largeMenu": 7.60
+            },
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 2561,
+                    "kcal": 633
+                },
+                {
+                    "name": "Lipide",
+                    "value": 25
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 6.4
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 68
+                },
+                {
+                    "name": "Sucre",
+                    "value": 10
+                },
+                {
+                    "name": "Fibre",
+                    "value": 3.3
+                },
+                {
+                    "name": "Protéine",
+                    "value": 27
+                },
+                {
+                    "name": "Sel",
+                    "value": 3.6
+                }
+            ]
+        },
+
+        {
+            "name": "McWrap Chicken Maredsou",
+            "menu": true,
+            "happy": false,
+            "illu": "assets/images/mcdo/wrap/21maredsousmcwrap.svg",
+            "alt": "illustration d'un McWrap chicken maredsous",
+            "price": {
+                "solo": 4.40,
+                "mediumMenu": 7,
+                "largeMenu": 7.60
+            },
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 2324,
+                    "kcal": 555
+                },
+                {
+                    "name": "Lipide",
+                    "value": 27
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 7.5
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 51
+                },
+                {
+                    "name": "Sucre",
+                    "value": 5.1
+                },
+                {
+                    "name": "Fibre",
+                    "value": 3.1
+                },
+                {
+                    "name": "Protéine",
+                    "value": 26
+                },
+                {
+                    "name": "Sel",
+                    "value": 3
+                }
+            ]
+        },
+
+        {
+            "name": "Petit Chicken Wrap",
+            "menu": false,
+            "happy": false,
+            "illu": "assets/images/mcdo/wrap/22chickenmielmcwrap.svg",
+            "alt": "illustration d'un petit chicken wrap",
+            "price": {
+                "solo": 2.35
+            },
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 1382,
+                    "kcal": 330
+                },
+                {
+                    "name": "Lipide",
+                    "value": 14
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 2
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 38
+                },
+                {
+                    "name": "Sucre",
+                    "value": 3.5
+                },
+                {
+                    "name": "Fibre",
+                    "value": 2.1
+                },
+                {
+                    "name": "Protéine",
+                    "value": 11
+                },
+                {
+                    "name": "Sel",
+                    "value": 1.6
+                }
+            ]
+        },
+
+        {
+            "name": "Side Salad",
+            "menu": false,
+            "happy": false,
+            "illu": "assets/images/mcdo/salade/16sidesalad.svg",
+            "alt": "illustration d'une side salad",
+            "price": {
+                "solo": 2
+            },
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 106,
+                    "kcal": 25
+                },
+                {
+                    "name": "Lipide",
+                    "value": 0.6
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 0.1
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 2.9
+                },
+                {
+                    "name": "Sucre",
+                    "value": 2.3
+                },
+                {
+                    "name": "Fibre",
+                    "value": 1.7
+                },
+                {
+                    "name": "Protéine",
+                    "value": 1.3
+                },
+                {
+                    "name": "Sel",
+                    "value": 0.02
+                }
+            ]
+        },
+
+        {
+            "name": "Grilled Chicken Salad",
+            "menu": true,
+            "happy": false,
+            "illu": "assets/images/mcdo/salade/17grilledchickensalad.svg",
+            "alt": "illustration d'une grilled chicken salad",
+            "price": {
+                "solo": 4.95,
+                "mediumMenu": 5.9,
+                "largeMenu": "unknown"
+            },
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 580,
+                    "kcal": 138
+                },
+                {
+                    "name": "Lipide",
+                    "value": 2.7
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 0.8
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 12
+                },
+                {
+                    "name": "Sucre",
+                    "value": 7.4
+                },
+                {
+                    "name": "Fibre",
+                    "value": 3.1
+                },
+                {
+                    "name": "Protéine",
+                    "value": 15
+                },
+                {
+                    "name": "Sel",
+                    "value": 0.66
+                }
+            ]
+        },
+
+        {
+            "name": "Salade Cheese & Bacon",
+            "menu": true,
+            "happy": false,
+            "illu": "assets/images/mcdo/salade/19cheesesalad.svg",
+            "alt": "illustration d'une Salade Cheese & Bacon",
+            "price": {
+                "solo": 4.95,
+                "mediumMenu": 5.9,
+                "largeMenu": "unknown"
+            },
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 1204,
+                    "kcal": 289
+                },
+                {
+                    "name": "Lipide",
+                    "value": 20
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 10
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 8
+                },
+                {
+                    "name": "Sucre",
+                    "value": 5
+                },
+                {
+                    "name": "Fibre",
+                    "value": 1.9
+                },
+                {
+                    "name": "Protéine",
+                    "value": 18
+                },
+                {
+                    "name": "Sel",
+                    "value": 1.4
+                }
+            ]
+        },
+
+        {
+            "name": "Salade Mozzarella et pesto",
+            "menu": true,
+            "happy": false,
+            "illu": "assets/images/mcdo/salade/18mozzarellasalad.svg",
+            "alt": "illustration d'une Salade Mozzarella et pesto",
+            "price": {
+                "solo": 4.95,
+                "mediumMenu": 5.9,
+                "largeMenu": "unknown"
+            },
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 1618,
+                    "kcal": 386
+                },
+                {
+                    "name": "Lipide",
+                    "value": 18
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 9.9
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 37
+                },
+                {
+                    "name": "Sucre",
+                    "value": 3.5
+                },
+                {
+                    "name": "Fibre",
+                    "value": 2.3
+                },
+                {
+                    "name": "Protéine",
+                    "value": 17
+                },
+                {
+                    "name": "Sel",
+                    "value": 0.68
+                }
+            ]
+        },
+
+        {
+            "name": "Vinaigrette Balsamique",
+            "menu": true,
+            "happy": false,
+            "illu": "assets/images/mcdo/sauce/64vinaigrettebalsamique.svg",
+            "alt": "illustration d'un pot de vinaigrette balsamique",
+            "price": {
+                "solo": 0
+            },
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 547,
+                    "kcal": 133
+                },
+                {
+                    "name": "Lipide",
+                    "value": 14
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 1
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 2.7
+                },
+                {
+                    "name": "Sucre",
+                    "value": 2.7
+                },
+                {
+                    "name": "Fibre",
+                    "value": 0.1
+                },
+                {
+                    "name": "Protéine",
+                    "value": 0
+                },
+                {
+                    "name": "Sel",
+                    "value": 0.12
+                }
+            ]
+        },
+
+        {
+            "name": "Ceasar Dressing",
+            "menu": true,
+            "happy": false,
+            "illu": "assets/images/mcdo/sauce/65vinaigrettemoutarde.svg",
+            "alt": "illustration d'un pot de vinaigrette moutarde",
+            "price": {
+                "solo": 0
+            },
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 718,
+                    "kcal": 171
+                },
+                {
+                    "name": "Lipide",
+                    "value": 18
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 1.4
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 2.6
+                },
+                {
+                    "name": "Sucre",
+                    "value": 2.1
+                },
+                {
+                    "name": "Fibre",
+                    "value": 0.2
+                },
+                {
+                    "name": "Protéine",
+                    "value": 0.2
+                },
+                {
+                    "name": "Sel",
+                    "value": 0.37
+                }
+            ]
+        },
+
+        {
+            "name": "Pesto Dresing",
+            "menu": true,
+            "happy": false,
+            "illu": "assets/images/mcdo/sauce/66vinaigrettepesto.svg",
+            "alt": "illustration d'un pot de vinaigrette pesto",
+            "price": {
+                "solo": 0
+            },
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 377,
+                    "kcal": 92
+                },
+                {
+                    "name": "Lipide",
+                    "value": 9.3
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 1
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 1.8
+                },
+                {
+                    "name": "Sucre",
+                    "value": 1.2
+                },
+                {
+                    "name": "Fibre",
+                    "value": 0.1
+                },
+                {
+                    "name": "Protéine",
+                    "value": 0.1
+                },
+                {
+                    "name": "Sel",
+                    "value": 0.18
+                }
+            ]
+        },
+
+        {
+            "name": "Yaourt Dressing",
+            "menu": true,
+            "happy": false,
+            "illu": "assets/images/mcdo/sauce/65vinaigretteyaourt.svg",
+            "alt": "illustration d'un pot de vinaigrette yaourt dressing",
+            "price": {
+                "solo": 0
+            },
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 758,
+                    "kcal": 181
+                },
+                {
+                    "name": "Lipide",
+                    "value": 18
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 1.4
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 3.6
+                },
+                {
+                    "name": "Sucre",
+                    "value": 2.7
+                },
+                {
+                    "name": "Fibre",
+                    "value": 0
+                },
+                {
+                    "name": "Protéine",
+                    "value": 1.1
+                },
+                {
+                    "name": "Sel",
+                    "value": 0.39
+                }
+            ]
+        }
+    ],
+
+    "frites/sauces": [
+        {
+            "name": "Petite Frite",
+            "menu": false,
+            "happy": false,
+            "illu": "assets/images/mcdo/frite/frites1.svg",
+            "alt": "illustration d'un petit paquet de frites",
+            "quantity": 79.999999,
+            "price": {
+                "solo": 1.95
+            },
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 965  ,
+                    "kcal": 231
+                },
+                {
+                    "name": "Lipide",
+                    "value": 11
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 1
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 29
+                },
+                {
+                    "name": "Sucre",
+                    "value": 0.4
+                },
+                {
+                    "name": "Fibre",
+                    "value": 2.8
+                },
+                {
+                    "name": "Protéine",
+                    "value": 2.8
+                },
+                {
+                    "name": "Sel",
+                    "value": 0.55
+                }
+            ]
+        },
+
+        {
+            "name": "Moyenne Frite",
+            "menu": false,
+            "happy": false,
+            "illu": "assets/images/mcdo/frite/frites2.svg",
+            "alt": "illustration d'un paquet de frites moyen",
+            "quantity": 113.9669421,
+            "price": {
+                "solo": 2.05
+            },
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 1379,
+                    "kcal": 330
+                },
+                {
+                    "name": "Lipide",
+                    "value": 16
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 1.5
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 41
+                },
+                {
+                    "name": "Sucre",
+                    "value": 0.4
+                },
+                {
+                    "name": "Fibre",
+                    "value": 4
+                },
+                {
+                    "name": "Protéine",
+                    "value": 3.9
+                },
+                {
+                    "name": "Sel",
+                    "value": 0.79
+                }
+            ]
+        },
+
+        {
+            "name": "Grande Frite",
+            "menu": false,
+            "happy": false,
+            "illu": "assets/images/mcdo/frite/frites3.svg",
+            "alt": "illustration d'un grand paquet de frites",
+            "quantity": 150,
+            "price": {
+                "solo": 2.20
+            },
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 1815,
+                    "kcal": 434
+                },
+                {
+                    "name": "Lipide",
+                    "value": 21
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 2
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 54
+                },
+                {
+                    "name": "Sucre",
+                    "value": 0.5
+                },
+                {
+                    "name": "Fibre",
+                    "value": 5.3
+                },
+                {
+                    "name": "Protéine",
+                    "value": 5.2
+                },
+                {
+                    "name": "Sel",
+                    "value": 1
+                }
+            ]
+        },
+
+        {
+            "name": "Ketchup",
+            "menu": true,
+            "happy": true,
+            "price": {
+                "solo": 0.7
+            },
+            "illu": "assets/images/mcdo/sauce/58ketchup.svg",
+            "alt": "illustration d'un pot de sauce ketchup",
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 171,
+                    "kcal": 40
+                },
+                {
+                    "name": "Lipide",
+                    "value": 0.1
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 0
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 9.1
+                },
+                {
+                    "name": "Sucre",
+                    "value": 7.4
+                },
+                {
+                    "name": "Fibre",
+                    "value": 0.7
+                },
+                {
+                    "name": "Protéine",
+                    "value": 0.6
+                },
+                {
+                    "name": "Sel",
+                    "value": 0.74
+                }
+            ]
+        },
+
+        {
+            "name": "Mayonnaise",
+            "menu": true,
+            "happy": true,
+            "price": {
+                "solo": 0.7
+            },
+            "illu": "assets/images/mcdo/sauce/59mayo.svg",
+            "alt": "illustration d'un pot de sauce mayonnaise",
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 1062,
+                    "kcal": 258
+                },
+                {
+                    "name": "Lipide",
+                    "value": 28
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 2.4
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 0.8
+                },
+                {
+                    "name": "Sucre",
+                    "value": 0.6
+                },
+                {
+                    "name": "Fibre",
+                    "value": 0
+                },
+                {
+                    "name": "Protéine",
+                    "value": 0.4
+                },
+                {
+                    "name": "Sel",
+                    "value": 0.29
+                }
+            ]
+        },
+
+        {
+            "name": "Sauce Frites",
+            "menu": true,
+            "happy": true,
+            "price": {
+                "solo": 0.7
+            },
+            "illu": "assets/images/mcdo/sauce/60saucefrites.svg",
+            "alt": "illustration d'un pot de sauce frites",
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 443,
+                    "kcal": 107
+                },
+                {
+                    "name": "Lipide",
+                    "value": 9.1
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 0.7
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 4.9
+                },
+                {
+                    "name": "Sucre",
+                    "value": 2.6
+                },
+                {
+                    "name": "Fibre",
+                    "value": 0.1
+                },
+                {
+                    "name": "Protéine",
+                    "value": 0.4
+                },
+                {
+                    "name": "Sel",
+                    "value": 0.5
+                }
+            ]
+        },
+
+        {
+            "name": "Sauce Aigre-douce",
+            "menu": true,
+            "happy": true,
+            "price": {
+                "solo": 0.7
+            },
+            "illu": "assets/images/mcdo/sauce/61aigredouce.svg",
+            "alt": "illustration d'un pot de sauce aigre douce",
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 180,
+                    "kcal": 43
+                },
+                {
+                    "name": "Lipide",
+                    "value": 0
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 0
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 10
+                },
+                {
+                    "name": "Sucre",
+                    "value": 7
+                },
+                {
+                    "name": "Fibre",
+                    "value": 0
+                },
+                {
+                    "name": "Protéine",
+                    "value": 0
+                },
+                {
+                    "name": "Sel",
+                    "value": 0.23
+                }
+            ]
+        },
+
+        {
+            "name": "Sauce Barbecue",
+            "menu": true,
+            "happy": true,
+            "price": {
+                "solo": 0.7
+            },
+            "illu": "assets/images/mcdo/sauce/62barbecue.svg",
+            "alt": "illustration d'un pot de sauce barbecue",
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 173,
+                    "kcal": 41
+                },
+                {
+                    "name": "Lipide",
+                    "value": 0
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 0
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 10
+                },
+                {
+                    "name": "Sucre",
+                    "value": 8
+                },
+                {
+                    "name": "Fibre",
+                    "value": 0
+                },
+                {
+                    "name": "Protéine",
+                    "value": 0
+                },
+                {
+                    "name": "Sel",
+                    "value": 0.4
+                }
+            ]
+        },
+
+        {
+            "name": "Sauce Curry",
+            "menu": true,
+            "happy": true,
+            "price": {
+                "solo": 0.7
+            },
+            "illu": "assets/images/mcdo/sauce/63curry.svg",
+            "alt": "illustration d'un pot de sauce curry",
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 173,
+                    "kcal": 41
+                },
+                {
+                    "name": "Lipide",
+                    "value": 0.3
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 0
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 9
+                },
+                {
+                    "name": "Sucre",
+                    "value": 8
+                },
+                {
+                    "name": "Fibre",
+                    "value": 0.4
+                },
+                {
+                    "name": "Protéine",
+                    "value": 0.2
+                },
+                {
+                    "name": "Sel",
+                    "value": 0.28
+                }
+            ]
+        }
+    ],
+
+    "desserts": [
+        {
+            "name": "Pomme",
+            "happy": true,
+            "price": {
+                "solo": 1.5
+            },
+            "illu": "assets/images/mcdo/dessert/29pomme.svg",
+            "alt": "illustration d'une pomme",
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 1337,
+                    "kcal": 320
+                },
+                {
+                    "name": "Lipide",
+                    "value": 9.9
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 5.7
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 51
+                },
+                {
+                    "name": "Sucre",
+                    "value": 39
+                },
+                {
+                    "name": "Fibre",
+                    "value": 0.6
+                },
+                {
+                    "name": "Protéine",
+                    "value": 6.1
+                },
+                {
+                    "name": "Sel",
+                    "value": 0.5
+                }
+            ]
+        },
+
+        {
+            "name": "Mc Flurry Oreo",
+            "happy": false,
+            "price": {
+                "solo": 2.95
+            },
+            "illu": "assets/images/mcdo/dessert/30mcflurry.svg",
+            "alt": "illustration d'un mcflurry oréo",
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 1337,
+                    "kcal": 320
+                },
+                {
+                    "name": "Lipide",
+                    "value": 9.9
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 5.7
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 51
+                },
+                {
+                    "name": "Sucre",
+                    "value": 39
+                },
+                {
+                    "name": "Fibre",
+                    "value": 0.6
+                },
+                {
+                    "name": "Protéine",
+                    "value": 6.1
+                },
+                {
+                    "name": "Sel",
+                    "value": 0.5
+                }
+            ]
+        },
+
+        {
+            "name": "Mc Flurry M&Ms",
+            "happy": false,
+            "price": {
+                "solo": 2.95
+            },
+            "illu": "assets/images/mcdo/dessert/31mcflurrym&ms.svg",
+            "alt": "illustration d'un mcflurry m&m's",
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 1210,
+                    "kcal": 289
+                },
+                {
+                    "name": "Lipide",
+                    "value": 11
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 5
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 41
+                },
+                {
+                    "name": "Sucre",
+                    "value": 37
+                },
+                {
+                    "name": "Fibre",
+                    "value": 1
+                },
+                {
+                    "name": "Protéine",
+                    "value": 6
+                },
+                {
+                    "name": "Sel",
+                    "value": 0.3
+                }
+            ]
+        },
+
+        {
+            "name": "Mc Flurry Speculoos",
+            "happy": false,
+            "price": {
+                "solo": 2.95
+            },
+            "illu": "assets/images/mcdo/dessert/32mcflurryspeculoos.svg",
+            "alt": "illustration d'un mcflurry speculoos",
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 1027,
+                    "kcal": 244
+                },
+                {
+                    "name": "Lipide",
+                    "value": 8
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 8
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 39
+                },
+                {
+                    "name": "Sucre",
+                    "value": 30
+                },
+                {
+                    "name": "Fibre",
+                    "value": 0
+                },
+                {
+                    "name": "Protéine",
+                    "value": 4
+                },
+                {
+                    "name": "Sel",
+                    "value": 0.4
+                }
+            ]
+        },
+
+        {
+            "name": "Milkshake Vanille",
+            "happy": false,
+            "price": {
+                "solo": 2.95
+            },
+            "illu": "assets/images/mcdo/dessert/38milkshakevanille.svg",
+            "alt": "illustration d'un milkshake vanille",
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 1376,
+                    "kcal": 325
+                },
+                {
+                    "name": "Lipide",
+                    "value": 6.1
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 4.1
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 59
+                },
+                {
+                    "name": "Sucre",
+                    "value": 53
+                },
+                {
+                    "name": "Fibre",
+                    "value": 0
+                },
+                {
+                    "name": "Protéine",
+                    "value": 8.1
+                },
+                {
+                    "name": "Sel",
+                    "value": 0.28
+                }
+            ]
+        },
+
+        {
+            "name": "Milkshake Fraise",
+            "happy": false,
+            "price": {
+                "solo": 2.95
+            },
+            "illu": "assets/images/mcdo/dessert/37milkshakefraise.svg",
+            "alt": "illustration d'un milkshake fraise",
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 1375,
+                    "kcal": 325
+                },
+                {
+                    "name": "Lipide",
+                    "value": 6.1
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 4.1
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 59
+                },
+                {
+                    "name": "Sucre",
+                    "value": 54
+                },
+                {
+                    "name": "Fibre",
+                    "value": 0
+                },
+                {
+                    "name": "Protéine",
+                    "value": 8.2
+                },
+                {
+                    "name": "Sel",
+                    "value": 0.29
+                }
+            ]
+        },
+
+        {
+            "name": "Milkshake Chocolat",
+            "happy": false,
+            "price": {
+                "solo": 2.95
+            },
+            "illu": "assets/images/mcdo/dessert/36milkshakechocolat.svg",
+            "alt": "illustration d'un milkshake chocolat",
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 1375,
+                    "kcal": 325
+                },
+                {
+                    "name": "Lipide",
+                    "value": 6.1
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 4.1
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 59
+                },
+                {
+                    "name": "Sucre",
+                    "value": 54
+                },
+                {
+                    "name": "Fibre",
+                    "value": 0
+                },
+                {
+                    "name": "Protéine",
+                    "value": 8.2
+                },
+                {
+                    "name": "Sel",
+                    "value": 0.29
+                }
+            ]
+        },
+
+        {
+            "name": "Cornet de Glace",
+            "happy": true,
+            "price": {
+                "solo": 1.25
+            },
+            "illu": "assets/images/mcdo/dessert/42glace.svg",
+            "alt": "illustration d'une glace",
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 591,
+                    "kcal": 140
+                },
+                {
+                    "name": "Lipide",
+                    "value": 3.5
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 2.1
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 23
+                },
+                {
+                    "name": "Sucre",
+                    "value": 17
+                },
+                {
+                    "name": "Fibre",
+                    "value": 0.3
+                },
+                {
+                    "name": "Protéine",
+                    "value": 3.15
+                },
+                {
+                    "name": "Sel",
+                    "value": 0.14
+                }
+            ]
+        },
+
+        {
+            "name": "Actimel",
+            "happy": true,
+            "price": {
+                "solo": 1
+            },
+            "illu": "assets/images/mcdo/dessert/44actimel.svg",
+            "alt": "illustration d'un actimel",
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 323,
+                    "kcal": 76
+                },
+                {
+                    "name": "Lipide",
+                    "value": 1.5
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 1
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 12
+                },
+                {
+                    "name": "Sucre",
+                    "value": 11.9
+                },
+                {
+                    "name": "Fibre",
+                    "value": 0
+                },
+                {
+                    "name": "Protéine",
+                    "value": 2.8
+                },
+                {
+                    "name": "Sel",
+                    "value": 0.1
+                }
+            ]
+        },
+
+        {
+            "name": "Danonino",
+            "happy": true,
+            "price": {
+                "solo": 1.7
+            },
+            "illu": "assets/images/mcdo/dessert/45danonino.svg",
+            "alt": "illustration d'un danonino",
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 271,
+                    "kcal": 64
+                },
+                {
+                    "name": "Lipide",
+                    "value": 2
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 1.3
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 9.1
+                },
+                {
+                    "name": "Sucre",
+                    "value": 1.1
+                },
+                {
+                    "name": "Fibre",
+                    "value": 0.1
+                },
+                {
+                    "name": "Protéine",
+                    "value": 2.5
+                },
+                {
+                    "name": "Sel",
+                    "value": 0
+                }
+            ]
+        },
+
+        {
+            "name": "Petit Lu",
+            "happy": true,
+            "price": {
+                "solo": 1.6
+            },
+            "illu": "assets/images/mcdo/dessert/46petitlu.svg",
+            "alt": "illustration d'un petit lu",
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 498,
+                    "kcal": 119
+                },
+                {
+                    "name": "Lipide",
+                    "value": 4.8
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 0.9
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 18
+                },
+                {
+                    "name": "Sucre",
+                    "value": 8.8
+                },
+                {
+                    "name": "Fibre",
+                    "value": 0.4
+                },
+                {
+                    "name": "Protéine",
+                    "value": 1.8
+                },
+                {
+                    "name": "Sel",
+                    "value": 0.25
+                }
+            ]
+        },
+
+        {
+            "name": "Cracky Carrots",
+            "happy": true,
+            "price": {
+                "solo": 0
+            },
+            "illu": "assets/images/mcdo/dessert/43carrots.svg",
+            "alt": "illustration d'une carrotte",
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 75,
+                    "kcal": 18
+                },
+                {
+                    "name": "Lipide",
+                    "value": 0.3
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 0.1
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 3.6
+                },
+                {
+                    "name": "Sucre",
+                    "value": 3.4
+                },
+                {
+                    "name": "Fibre",
+                    "value": 1.4
+                },
+                {
+                    "name": "Protéine",
+                    "value": 0.4
+                },
+                {
+                    "name": "Sel",
+                    "value": 0.06
+                }
+            ]
+        }
+    ],
+
+    "boissons": [
+        {
+            "name": "Coca-Cola Small",
+            "menu": false,
+            "happy": true,
+            "illu": "assets/images/mcdo/drink/47coca.svg",
+            "alt": "illustration d'un gobelet de coca",
+            "quantity": 25,
+            "price": {
+                "solo": 1.85
+            },
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 437.5,
+                    "kcal": 102.5
+                },
+                {
+                    "name": "Lipide",
+                    "value": 0
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 0
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 25
+                },
+                {
+                    "name": "Sucre",
+                    "value": 25
+                },
+                {
+                    "name": "Fibre",
+                    "value": 0
+                },
+                {
+                    "name": "Protéine",
+                    "value": 0
+                },
+                {
+                    "name": "Sel",
+                    "value": 0
+                }
+            ]
+        },
+
+        {
+            "name": "Coca-Cola Medium",
+            "menu": true,
+            "happy": false,
+            "quantity": 35,
+            "illu": "assets/images/mcdo/drink/47coca.svg",
+            "alt": "illustration d'un gobelet de coca",
+            "price": {
+                "solo": 2.20
+            },
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 612.5,
+                    "kcal": 143.5
+                },
+                {
+                    "name": "Lipide",
+                    "value": 0
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 0
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 35
+                },
+                {
+                    "name": "Sucre",
+                    "value": 35
+                },
+                {
+                    "name": "Fibre",
+                    "value": 0
+                },
+                {
+                    "name": "Protéine",
+                    "value": 0
+                },
+                {
+                    "name": "Sel",
+                    "value": 0
+                }
+            ]
+        },
+
+        {
+            "name": "Coca-Cola Large",
+            "menu": true,
+            "happy": false,
+            "quantity": 50,
+            "illu": "assets/images/mcdo/drink/47coca.svg",
+            "alt": "illustration d'un gobelet de coca",
+            "price": {
+                "solo": 2.50
+            },
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 875,
+                    "kcal": 205
+                },
+                {
+                    "name": "Lipide",
+                    "value": 0
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 0
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 50
+                },
+                {
+                    "name": "Sucre",
+                    "value": 50
+                },
+                {
+                    "name": "Fibre",
+                    "value": 0
+                },
+                {
+                    "name": "Protéine",
+                    "value": 0
+                },
+                {
+                    "name": "Sel",
+                    "value": 0
+                }
+            ]
+        },
+
+        {
+            "name": "Coca-Cola Zéro Small",
+            "menu": false,
+            "happy": true,
+            "illu": "assets/images/mcdo/drink/48cocazero.svg",
+            "alt": "illustration d'un gobelet de coca zéro",
+            "quantity": 25,
+            "price": {
+                "solo": 1.85
+            },
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 3.75,
+                    "kcal": 2.5
+                },
+                {
+                    "name": "Lipide",
+                    "value": 0
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 0
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 0
+                },
+                {
+                    "name": "Sucre",
+                    "value": 0
+                },
+                {
+                    "name": "Fibre",
+                    "value": 0
+                },
+                {
+                    "name": "Protéine",
+                    "value": 0
+                },
+                {
+                    "name": "Sel",
+                    "value": 0.075
+                }
+            ]
+        },
+
+        {
+            "name": "Coca-Cola Zéro Medium",
+            "menu": true,
+            "happy": false,
+            "quantity": 35,
+            "illu": "assets/images/mcdo/drink/48cocazero.svg",
+            "alt": "illustration d'un gobelet de coca zéro",
+            "price": {
+                "solo": 2.20
+            },
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 5.25,
+                    "kcal": 3.5
+                },
+                {
+                    "name": "Lipide",
+                    "value": 0
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 0
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 0
+                },
+                {
+                    "name": "Sucre",
+                    "value": 0
+                },
+                {
+                    "name": "Fibre",
+                    "value": 0
+                },
+                {
+                    "name": "Protéine",
+                    "value": 0
+                },
+                {
+                    "name": "Sel",
+                    "value": 0.105
+                }
+            ]
+        },
+
+        {
+            "name": "Coca-Cola Zéro Large",
+            "menu": true,
+            "happy": false,
+            "illu": "assets/images/mcdo/drink/48cocazero.svg",
+            "alt": "illustration d'un gobelet de coca zéro",
+            "quantity": 50,
+            "price": {
+                "solo": 2.5
+            },
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 7.5,
+                    "kcal": 0.1
+                },
+                {
+                    "name": "Lipide",
+                    "value": 0
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 0
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 0
+                },
+                {
+                    "name": "Sucre",
+                    "value": 0
+                },
+                {
+                    "name": "Fibre",
+                    "value": 0
+                },
+                {
+                    "name": "Protéine",
+                    "value": 0
+                },
+                {
+                    "name": "Sel",
+                    "value": 0.15
+                }
+            ]
+        },
+
+        {
+            "name": "Coca-Cola Light Small",
+            "menu": false,
+            "happy": true,
+            "illu": "assets/images/mcdo/drink/47cocalight.svg",
+            "alt": "illustration d'un gobelet de coca light",
+            "quantity": 25,
+            "price": {
+                "solo": 1.85
+            },
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 3,
+                    "kcal": 0.0
+                },
+                {
+                    "name": "Lipide",
+                    "value": 0
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 0
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 0
+                },
+                {
+                    "name": "Sucre",
+                    "value": 0
+                },
+                {
+                    "name": "Fibre",
+                    "value": 0
+                },
+                {
+                    "name": "Protéine",
+                    "value": 0
+                },
+                {
+                    "name": "Sel",
+                    "value": 0.075
+                }
+            ]
+        },
+
+        {
+            "name": "Coca-Cola Light Medium",
+            "menu": true,
+            "happy": false,
+            "illu": "assets/images/mcdo/drink/47cocalight.svg",
+            "alt": "illustration d'un gobelet de coca light",
+            "quantity": 35,
+            "price": {
+                "solo": 2.2
+            },
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 4.2,
+                    "kcal": 0.0
+                },
+                {
+                    "name": "Lipide",
+                    "value": 0
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 0
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 0
+                },
+                {
+                    "name": "Sucre",
+                    "value": 0
+                },
+                {
+                    "name": "Fibre",
+                    "value": 0
+                },
+                {
+                    "name": "Protéine",
+                    "value": 0
+                },
+                {
+                    "name": "Sel",
+                    "value": 6
+                }
+            ]
+        },
+
+        {
+            "name": "Coca-Cola Light Large",
+            "menu": true,
+            "happy": false,
+            "illu": "assets/images/mcdo/drink/47cocalight.svg",
+            "alt": "illustration d'un gobelet de coca light",
+            "quantity": 50,
+            "price": {
+                "solo": 2.5
+            },
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 6,
+                    "kcal": 0.0
+                },
+                {
+                    "name": "Lipide",
+                    "value": 0
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 0
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 0
+                },
+                {
+                    "name": "Sucre",
+                    "value": 0
+                },
+                {
+                    "name": "Fibre",
+                    "value": 0
+                },
+                {
+                    "name": "Protéine",
+                    "value": 0
+                },
+                {
+                    "name": "Sel",
+                    "value": 0.15
+                }
+            ]
+        },
+
+        {
+            "name": "Fanta Orange Small",
+            "menu": false,
+            "happy": true,
+            "illu": "assets/images/mcdo/drink/49fanta.svg",
+            "alt": "illustration d'un gobelet de fanta orange",
+            "quantity": 25,
+            "price": {
+                "solo": 1.85
+            },
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 442.5,
+                    "kcal": 102.5
+                },
+                {
+                    "name": "Lipide",
+                    "value": 0
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 0
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 0
+                },
+                {
+                    "name": "Sucre",
+                    "value": 275
+                },
+                {
+                    "name": "Fibre",
+                    "value": 0
+                },
+                {
+                    "name": "Protéine",
+                    "value": 0
+                },
+                {
+                    "name": "Sel",
+                    "value": 0
+                }
+            ]
+        },
+
+        {
+            "name": "Fanta Orange Medium",
+            "menu": true,
+            "happy": false,
+            "illu": "assets/images/mcdo/drink/49fanta.svg",
+            "alt": "illustration d'un gobelet de fanta orange",
+            "quantity": 35,
+            "price": {
+                "solo": 2.2
+            },
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 619.5,
+                    "kcal": 143.5
+                },
+                {
+                    "name": "Lipide",
+                    "value": 0
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 0
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 0
+                },
+                {
+                    "name": "Sucre",
+                    "value": 385
+                },
+                {
+                    "name": "Fibre",
+                    "value": 0
+                },
+                {
+                    "name": "Protéine",
+                    "value": 0
+                },
+                {
+                    "name": "Sel",
+                    "value": 0
+                }
+            ]
+        },
+
+        {
+            "name": "Fanta Orange Large",
+            "menu": true,
+            "happy": false,
+            "illu": "assets/images/mcdo/drink/49fanta.svg",
+            "alt": "illustration d'un gobelet de fanta orange",
+            "quantity": 50,
+            "price": {
+                "solo": 2.5
+            },
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 885,
+                    "kcal": 205
+                },
+                {
+                    "name": "Lipide",
+                    "value": 0
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 0
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 0
+                },
+                {
+                    "name": "Sucre",
+                    "value": 550
+                },
+                {
+                    "name": "Fibre",
+                    "value": 0
+                },
+                {
+                    "name": "Protéine",
+                    "value": 0
+                },
+                {
+                    "name": "Sel",
+                    "value": 0
+                }
+            ]
+        },
+
+        {
+            "name": "Sprite Small",
+            "menu": false,
+            "happy": true,
+            "illu": "assets/images/mcdo/drink/50sprite.svg",
+            "alt": "illustration d'un gobelet de sprite",
+            "quantity": 25,
+            "price": {
+                "solo": 1.85
+            },
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 287.5,
+                    "kcal": 67.5
+                },
+                {
+                    "name": "Lipide",
+                    "value": 0
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 0
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 0
+                },
+                {
+                    "name": "Sucre",
+                    "value": 16
+                },
+                {
+                    "name": "Fibre",
+                    "value": 0
+                },
+                {
+                    "name": "Protéine",
+                    "value": 0
+                },
+                {
+                    "name": "Sel",
+                    "value": 0.05
+                }
+            ]
+        },
+
+        {
+            "name": "Sprite Medium",
+            "menu": true,
+            "happy": false,
+            "illu": "assets/images/mcdo/drink/50sprite.svg",
+            "alt": "illustration d'un gobelet de sprite",
+            "quantity": 35,
+            "price": {
+                "solo": 2.2
+            },
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 402.5,
+                    "kcal": 94.5
+                },
+                {
+                    "name": "Lipide",
+                    "value": 0
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 0
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 0
+                },
+                {
+                    "name": "Sucre",
+                    "value": 22.4
+                },
+                {
+                    "name": "Fibre",
+                    "value": 0
+                },
+                {
+                    "name": "Protéine",
+                    "value": 0
+                },
+                {
+                    "name": "Sel",
+                    "value": 0.07
+                }
+            ]
+        },
+
+        {
+            "name": "Sprite Large",
+            "menu": true,
+            "happy": false,
+            "illu": "assets/images/mcdo/drink/50sprite.svg",
+            "alt": "illustration d'un gobelet de sprite",
+            "quantity": 50,
+            "price": {
+                "solo": 2.5
+            },
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 575,
+                    "kcal": 135
+                },
+                {
+                    "name": "Lipide",
+                    "value": 0
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 0
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 0
+                },
+                {
+                    "name": "Sucre",
+                    "value": 32
+                },
+                {
+                    "name": "Fibre",
+                    "value": 0
+                },
+                {
+                    "name": "Protéine",
+                    "value": 0
+                },
+                {
+                    "name": "Sel",
+                    "value": 0.1
+                }
+            ]
+        },
+
+        {
+            "name": "Lipton Ice-Tea Small",
+            "menu": false,
+            "happy": true,
+            "illu": "assets/images/mcdo/drink/51icetea.svg",
+            "alt": "illustration d'un gobelet de ice-tea",
+            "quantity": 25,
+            "price": {
+                "solo": 1.85
+            },
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 330,
+                    "kcal": 5
+                },
+                {
+                    "name": "Lipide",
+                    "value": 0
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 0
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 19.5
+                },
+                {
+                    "name": "Sucre",
+                    "value": 19.5
+                },
+                {
+                    "name": "Fibre",
+                    "value": 0
+                },
+                {
+                    "name": "Protéine",
+                    "value": 0
+                },
+                {
+                    "name": "Sel",
+                    "value": 0
+                }
+            ]
+        },
+
+        {
+            "name": "Lipton Ice-Tea Medium",
+            "menu": true,
+            "happy": false,
+            "illu": "assets/images/mcdo/drink/51icetea.svg",
+            "alt": "illustration d'un gobelet de ice-tea",
+            "quantity": 35,
+            "price": {
+                "solo": 2.2
+            },
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 462,
+                    "kcal": 7
+                },
+                {
+                    "name": "Lipide",
+                    "value": 0
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 0
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 27.3
+                },
+                {
+                    "name": "Sucre",
+                    "value": 27.3
+                },
+                {
+                    "name": "Fibre",
+                    "value": 0
+                },
+                {
+                    "name": "Protéine",
+                    "value": 0
+                },
+                {
+                    "name": "Sel",
+                    "value": 0
+                }
+            ]
+        },
+
+        {
+            "name": "Lipton Ice-Tea Large",
+            "menu": true,
+            "happy": false,
+            "illu": "assets/images/mcdo/drink/51icetea.svg",
+            "alt": "illustration d'un gobelet de ice-tea",
+            "quantity": 50,
+            "price": {
+                "solo": 2.5
+            },
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 660,
+                    "kcal": 10
+                },
+                {
+                    "name": "Lipide",
+                    "value": 0
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 0
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 39
+                },
+                {
+                    "name": "Sucre",
+                    "value": 39
+                },
+                {
+                    "name": "Fibre",
+                    "value": 0
+                },
+                {
+                    "name": "Protéine",
+                    "value": 0
+                },
+                {
+                    "name": "Sel",
+                    "value": 0
+                }
+            ]
+        },
+
+        {
+            "name": "Vittel Medium",
+            "menu": true,
+            "happy": false,
+            "illu": "assets/images/mcdo/drink/52vittel.svg",
+            "alt": "illustration d'une bouteille d'eau vittel",
+            "quantity": 33,
+            "price": {
+                "solo": 2.2
+            },
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 0,
+                    "kcal": 0
+                },
+                {
+                    "name": "Lipide",
+                    "value": 0
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 0
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 25.74
+                },
+                {
+                    "name": "Sucre",
+                    "value": 25.74
+                },
+                {
+                    "name": "Fibre",
+                    "value": 0
+                },
+                {
+                    "name": "Protéine",
+                    "value": 0
+                },
+                {
+                    "name": "Sel",
+                    "value": 0
+                }
+            ]
+        },
+
+        {
+            "name": "Vittel Large",
+            "menu": true,
+            "happy": false,
+            "illu": "assets/images/mcdo/drink/52vittel.svg",
+            "alt": "illustration d'une bouteille d'eau vittel",
+            "quantity": 50,
+            "price": {
+                "solo": 2.5
+            },
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 0,
+                    "kcal": 0
+                },
+                {
+                    "name": "Lipide",
+                    "value": 0
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 0
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 39
+                },
+                {
+                    "name": "Sucre",
+                    "value": 39
+                },
+                {
+                    "name": "Fibre",
+                    "value": 0
+                },
+                {
+                    "name": "Protéine",
+                    "value": 0
+                },
+                {
+                    "name": "Sel",
+                    "value": 0
+                }
+            ]
+        },
+
+        {
+            "name": "Perrier Medium",
+            "menu": true,
+            "happy": true,
+            "illu": "assets/images/mcdo/drink/53perrier.svg",
+            "alt": "illustration d'une bouteille d'eau perrier",
+            "quantity": 33,
+            "price": {
+                "solo": 2.2
+            },
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 0,
+                    "kcal": 0
+                },
+                {
+                    "name": "Lipide",
+                    "value": 0
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 0
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 25.74
+                },
+                {
+                    "name": "Sucre",
+                    "value": 25.74
+                },
+                {
+                    "name": "Fibre",
+                    "value": 0
+                },
+                {
+                    "name": "Protéine",
+                    "value": 0
+                },
+                {
+                    "name": "Sel",
+                    "value": 0
+                }
+            ]
+        },
+
+        {
+            "name": "Perrier Large",
+            "menu": true,
+            "happy": false,
+            "illu": "assets/images/mcdo/drink/53perrier.svg",
+            "alt": "illustration d'une bouteille d'eau perrier",
+            "quantity": 50,
+            "price": {
+                "solo": 2.5
+            },
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 0,
+                    "kcal": 0
+                },
+                {
+                    "name": "Lipide",
+                    "value": 0
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 0
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 39
+                },
+                {
+                    "name": "Sucre",
+                    "value": 39
+                },
+                {
+                    "name": "Fibre",
+                    "value": 0
+                },
+                {
+                    "name": "Protéine",
+                    "value": 0
+                },
+                {
+                    "name": "Sel",
+                    "value": 0
+                }
+            ]
+        },
+
+        {
+            "name": "Tropicana",
+            "menu": false,
+            "happy": true,
+            "illu": "assets/images/mcdo/drink/54tropicanaorange.svg",
+            "alt": "illustration d'un gobelet de tropicana orange",
+            "quantity": 25,
+            "price": {
+                "solo": 2.15
+            },
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 250,
+                    "kcal": 505
+                },
+                {
+                    "name": "Lipide",
+                    "value": 0
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 0
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 27.5
+                },
+                {
+                    "name": "Sucre",
+                    "value": 27.5
+                },
+                {
+                    "name": "Fibre",
+                    "value": 1.5
+                },
+                {
+                    "name": "Protéine",
+                    "value": 2.5
+                },
+                {
+                    "name": "Sel",
+                    "value": 0
+                }
+            ]
+        },
+
+        {
+            "name": "Jus de pomme",
+            "menu": false,
+            "happy": true,
+            "illu": "assets/images/mcdo/drink/55tropicanapomme.svg",
+            "alt": "illustration d'un gobelet de tropicana pomme",
+            "quantity": 25,
+            "price": {
+                "solo": 2.15
+            },
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 250,
+                    "kcal": 505
+                },
+                {
+                    "name": "Lipide",
+                    "value": 0
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 0
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 27.5
+                },
+                {
+                    "name": "Sucre",
+                    "value": 27.5
+                },
+                {
+                    "name": "Fibre",
+                    "value": 1.5
+                },
+                {
+                    "name": "Protéine",
+                    "value": 2.5
+                },
+                {
+                    "name": "Sel",
+                    "value": 0
+                }
+            ]
+        },
+
+        {
+            "name": "Fristi",
+            "menu": false,
+            "happy": true,
+            "illu": "assets/images/mcdo/drink/56fristi.svg",
+            "alt": "illustration d'un petit ju de fristi",
+            "price": {
+                "solo": 1.95
+            },
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 16,
+                    "kcal": 4.2
+                },
+                {
+                    "name": "Lipide",
+                    "value": 0
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 0
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 0.79
+                },
+                {
+                    "name": "Sucre",
+                    "value": 0.79
+                },
+                {
+                    "name": "Fibre",
+                    "value": 0
+                },
+                {
+                    "name": "Protéine",
+                    "value": 0.18
+                },
+                {
+                    "name": "Sel",
+                    "value": 0.18
+                }
+            ]
+        },
+
+        {
+            "name": "Bière Jupiler",
+            "menu": true,
+            "happy": false,
+            "illu": "assets/images/mcdo/drink/57jupiler.svg",
+            "alt": "illustration d'une cannette de jupiler",
+            "quantity": 33,
+            "price": {
+                "solo": 2.20
+            },
+            "info": [
+                {
+                    "name": "Calorie",
+                    "kj": 528,
+                    "kcal": 138.6
+                },
+                {
+                    "name": "Lipide",
+                    "value": 0
+                },
+                {
+                    "name": "Graisse saturée",
+                    "value": 0
+                },
+                {
+                    "name": "Hydrade de carbone",
+                    "value": 26.07
+                },
+                {
+                    "name": "Sucre",
+                    "value": 26.07
+                },
+                {
+                    "name": "Fibre",
+                    "value": 0
+                },
+                {
+                    "name": "Protéine",
+                    "value": 1.32
+                },
+                {
+                    "name": "Sel",
+                    "value": 0
+                }
+            ]
+        }
+    ]
+}

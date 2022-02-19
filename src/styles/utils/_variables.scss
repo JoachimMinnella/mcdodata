@@ -1,0 +1,19 @@
+/* Couleur */
+$color-primary: #004812;
+$color-secondary: #ffe200;
+$color-third: #dd1323;
+$color-dark: #262525;
+$color-light: #F2F2F2;
+$color-mid: #616161;
+
+/* Texte */
+$font-size: 1.7rem;
+$line-height: 1.4;
+$rythme: 1.414;
+$font-family: 'Open Sans', sans-serif;
+
+/* Grid */
+$size-recap: 320px;
+$size-nav: 150px;
+$container-margin: 120px;
+$size-container: calc(100vh - #{$size-recap + $container-margin});
